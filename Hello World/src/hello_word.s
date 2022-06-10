@@ -3,14 +3,14 @@ global _start
 section .text
 
 _start:
-	mov eax, 0x1 ; write
-	mov ebx, 1 ; stdout fd
-	mov ecx, message
-	mov edx, len
+	mov rax, 1 ; write
+	mov rdi, 1 ; stdout fd
+	mov rsi, message
+	mov rdx, len
 	syscall
 	
-	mov eax, 0x3c ; exit
-	mov ebx, 0x0 ; exit normally
+	mov rax, 60 ; exit
+	xor rdi, rdi ; exit normally (same as 'mov rdi, 0'. this is more efficient because science idfk)
 	syscall
 
 section .data
