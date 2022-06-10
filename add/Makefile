@@ -11,7 +11,8 @@ all: $(OBJ)
 	ld $(OBJ) -g -o $(NAME)
 $(OBJ): $(SRC)
 	nasm  -g -f elf64 src/*.s -o $(OBJ)
-
+test:
+	bin/main
 .PHONY: clean
 clean:
 	rm src/*.o
