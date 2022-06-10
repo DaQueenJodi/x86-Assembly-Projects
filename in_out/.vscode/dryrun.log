@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/win/Users/jodi/Documents/hdd/Documents/Programming/x86-Assembly-Projects/add'
+nasm  -g -f elf64 src/*.s -o src/add.o
+ld src/add.o -g -o bin/main
+make: Leaving directory '/win/Users/jodi/Documents/hdd/Documents/Programming/x86-Assembly-Projects/add'
+ 

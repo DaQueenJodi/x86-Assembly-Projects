@@ -1,3 +1,4 @@
+bits 64
 global _start
 
 section .text
@@ -10,7 +11,7 @@ _start:
 	syscall
 	
 	mov rax, 60 ; exit
-	xor rdi, rdi ; exit normally (same as 'mov rdi, 0'. this is more efficient because science idfk)
+	xor rdi, rdi ; exit normally (same as 'mov rdi, 0'. this is more efficient)
 	syscall
 
 section .data

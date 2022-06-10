@@ -10,7 +10,7 @@ OBJ 	:= ${SRC:.s=.o}
 all: $(OBJ)
 	ld $(OBJ) -g -o $(NAME)
 $(OBJ): $(SRC)
-	nasm -f elf64 src/*.s -o $(OBJ)
+	nasm  -g -f elf64 src/*.s -o $(OBJ)
 
 .PHONY: clean
 clean:

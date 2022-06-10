@@ -1,0 +1,386 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Jun 10 09:40:04 2022
+
+# Variables
+
+# environment
+JAVA_HOME = /etc/java-config-2/current-system-vm
+# makefile (from 'Makefile', line 4)
+OBJ := src/add.o
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# makefile (from 'Makefile', line 3)
+SRC := src/add.s
+# environment
+GTK_RC_FILES = /etc/gtk/gtkrc:/home/jodi/.gtkrc:/home/jodi/.config/gtkrc
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-a46112d6-f71c-4e9e-b176-a61614e9f723.sock
+# environment
+VSCODE_CWD = /win/Users/jodi/Documents/hdd/Documents/Programming/x86-Assembly-Projects/add
+# environment
+VSCODE_GALLERY_SERVICE_URL = https://marketplace.visualstudio.com/_apis/public/gallery
+# environment
+WINDOWID = 119537666
+# environment
+UBUNTU_MENUPROXY = 1
+# environment
+GCC_SPECS = 
+# environment
+GDM_LANG = en_US.utf8
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/jodi/Documents/Programming/x86-Assembly-Projects/add
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+MAIL = /var/mail/jodi
+# environment
+XDG_DATA_DIRS = /home/jodi/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+# environment
+OLDPWD = /home/jodi
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/jodi/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+VSCODE_GALLERY_RECOMMENDATIONS_URL = 
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# environment
+SSH_ASKPASS = /usr/bin/ksshaskpass
+# environment
+LANG = C
+# environment
+XAUTHORITY = /home/jodi/.Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /win/Users/jodi/Documents/hdd/Documents/Programming/x86-Assembly-Projects/add
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+LESSOPEN = |lesspipe %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_CONFIG_DIRS = /home/jodi/.config/kdedefaults:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XCURSOR_THEME = Adwaita
+# environment
+XDG_SESSION_DESKTOP = plasma
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+ZSH = /home/jodi/.oh-my-zsh
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 2766
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+MANPAGER = manpager
+# environment
+SESSION_MANAGER = local/gentoo-pc:@/tmp/.ICE-unix/2881,unix/gentoo-pc:/tmp/.ICE-unix/2881
+# automatic
+*F = $(notdir $*)
+# environment
+MANPATH = /etc/java-config-2/current-system-vm/man:/usr/share/gcc-data/x86_64-pc-linux-gnu/11.3.0/man:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.37_p1/man:/etc/java-config-2/current-system-vm/man/:/usr/local/share/man:/usr/share/man:/usr/lib/rust/man:/usr/lib/llvm/14/share/man:/usr/lib/llvm/13/share/man
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:abstract=/tmp/dbus-qbYETYtdcW,guid=09c1c4cc49c6b1bfe06650c462a1e459
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+INFOPATH = /usr/share/gcc-data/x86_64-pc-linux-gnu/11.3.0/info:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.37_p1/info:/usr/share/info
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 2
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/jodi/.local/usr/bin:/home/jodi/.cargo/bin:/home/jodi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bin:/usr/lib/llvm/14/bin:/usr/lib/llvm/13/bin
+# default
+MAKEFILES := 
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?F = $(notdir $?)
+# environment
+KDE_APPLICATIONS_AS_SCOPE = 1
+# makefile (from 'Makefile', line 2)
+NAME := bin/main
+# environment
+AUTOJUMP_SOURCED = 1
+# environment
+GSETTINGS_BACKEND = dconf
+# environment
+XDG_SEAT = seat0
+# environment
+XDG_CURRENT_DESKTOP = KDE
+# environment
+JAVAC = /etc/java-config-2/current-system-vm/bin/javac
+# environment
+ALACRITTY_LOG = /tmp/Alacritty-2702.log
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+LESS = -R -M --shift 5
+# environment
+DESKTOP_SESSION = plasma
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = KDE
+# environment
+VSCODE_GALLERY_ITEM_URL = https://marketplace.visualstudio.com/items
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = jodi
+# environment
+CONFIG_PROTECT_MASK = /etc/sandbox.d /etc/fonts/fonts.conf /etc/gentoo-release /etc/terminfo /etc/dconf /etc/ca-certificates.conf
+# environment
+VSCODE_GALLERY_CONTROL_URL = 
+# environment
+VSCODE_GALLERY_CACHE_URL = https://vscode.blob.core.windows.net/gallery/index
+# environment
+CONFIG_PROTECT = /usr/share/gnupg/qualified.txt /usr/share/config
+# environment
+XDG_VTNR = 7
+# makefile
+.DEFAULT_GOAL := all
+# environment
+AUTOJUMP_ERROR_PATH = /home/jodi/.local/share/autojump/errors.log
+# environment
+EDITOR = vim
+# environment
+DISPLAY = :0
+# environment
+GTK_MODULES = canberra-gtk-module:appmenu-gtk-module
+# environment
+USER = jodi
+# default
+MAKE_VERSION := 4.3
+# environment
+KDE_SESSION_UID = 1000
+# environment
+PAGER = /usr/bin/less
+# environment
+_ = /usr/bin/make
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+COLORTERM = truecolor
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+GTK2_RC_FILES = /etc/gtk-2.0/gtkrc:/home/jodi/.gtkrc-2.0:/home/jodi/.config/gtkrc-2.0
+# environment
+HOME = /home/jodi
+# environment
+JDK_HOME = /etc/java-config-2/current-system-vm
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-fabbd96e-1.67.2-main.sock
+# environment
+TERM = alacritty
+# environment
+XDG_SESSION_ID = 2
+# environment
+XCURSOR_SIZE = 24
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/jodi
+# environment
+KDE_SESSION_VERSION = 5
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+KDE_FULL_SESSION = true
+# environment
+GDMSESSION = plasma
+# variable set hash-table stats:
+# Load=130/1024=13%, Rehash=0, Collisions=22/167=13%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# src (device 2067, inode 476713): 4 files, no impossibilities.
+# . (device 2067, inode 485844): 6 files, no impossibilities.
+
+# 10 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+ 
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-10 09:37:01.324129
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 17):
+	rm src/*.o
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: src/add.o
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# * := 
+# automatic
+# < := src/add.o
+# automatic
+# + := src/add.o
+# automatic
+# % := 
+# automatic
+# ^ := src/add.o
+# automatic
+# ? := src/add.o
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/13=8%
+#  recipe to execute (from 'Makefile', line 11):
+	ld $(OBJ) -g -o $(NAME)
+
+src/add.o: src/add.s
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-10 09:37:07.3408334
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 13):
+	nasm  -g -f elf64 src/*.s -o $(OBJ)
+
+# Not a target:
+src/add.s:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-10 09:36:33.7106223
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: all clean clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=8/1024=1%, Rehash=0, Collisions=0/28=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 16 / storage = 111 B / avg = 6 B
+# current buf: size = 8162 B / used = 111 B / count = 16 / avg = 6 B
+
+# strcache performance: lookups = 35 / hit rate = 54%
+# hash-table stats:
+# Load=16/8192=0%, Rehash=0, Collisions=1/35=3%
+# Finished Make data base on Fri Jun 10 09:40:04 2022
+
+ 
