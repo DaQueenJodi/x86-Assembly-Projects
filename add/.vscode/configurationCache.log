@@ -1,1 +1,1 @@
-{"buildTargets":["all","clean","src/add.o"],"launchTargets":["/win/Users/jodi/Documents/hdd/Documents/Programming/x86-Assembly-Projects/add/bin>main()"],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
+{"buildTargets":["all","clean","src/add.o","test"],"launchTargets":["/win/Users/jodi/Documents/hdd/Documents/Programming/x86-Assembly-Projects/add/bin>main()"],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

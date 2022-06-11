@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jun 10 09:40:04 2022
+# Make data base, printed on Sat Jun 11 08:03:51 2022
 
 # Variables
 
@@ -25,13 +25,9 @@ SRC := src/add.s
 # environment
 GTK_RC_FILES = /etc/gtk/gtkrc:/home/jodi/.gtkrc:/home/jodi/.config/gtkrc
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-a46112d6-f71c-4e9e-b176-a61614e9f723.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-e8937b6c-2384-42ff-99fa-5c38215b4102.sock
 # environment
-VSCODE_CWD = /win/Users/jodi/Documents/hdd/Documents/Programming/x86-Assembly-Projects/add
-# environment
-VSCODE_GALLERY_SERVICE_URL = https://marketplace.visualstudio.com/_apis/public/gallery
-# environment
-WINDOWID = 119537666
+VSCODE_CWD = /home/jodi
 # environment
 UBUNTU_MENUPROXY = 1
 # environment
@@ -47,17 +43,13 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
 # environment
-PWD = /home/jodi/Documents/Programming/x86-Assembly-Projects/add
+PWD = /win/Users/jodi/Documents/hdd/Documents/Programming/x86-Assembly-Projects/add
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
-# environment
-LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
 MAIL = /var/mail/jodi
 # environment
 XDG_DATA_DIRS = /home/jodi/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
-# environment
-OLDPWD = /home/jodi
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
@@ -66,8 +58,6 @@ VSCODE_LOG_STACK = false
 %F = $(notdir $%)
 # environment
 VSCODE_CODE_CACHE_PATH = /home/jodi/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
-# environment
-VSCODE_GALLERY_RECOMMENDATIONS_URL = 
 # environment
 XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
 # environment
@@ -109,11 +99,9 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-ZSH = /home/jodi/.oh-my-zsh
-# environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 2766
+VSCODE_PID = 7936
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -121,7 +109,7 @@ XDG_SESSION_TYPE = x11
 # environment
 MANPAGER = manpager
 # environment
-SESSION_MANAGER = local/gentoo-pc:@/tmp/.ICE-unix/2881,unix/gentoo-pc:/tmp/.ICE-unix/2881
+SESSION_MANAGER = local/gentoo-pc:@/tmp/.ICE-unix/2884,unix/gentoo-pc:/tmp/.ICE-unix/2884
 # automatic
 *F = $(notdir $*)
 # environment
@@ -129,7 +117,7 @@ MANPATH = /etc/java-config-2/current-system-vm/man:/usr/share/gcc-data/x86_64-pc
 # environment
 CHROME_DESKTOP = code-url-handler.desktop
 # environment
-DBUS_SESSION_BUS_ADDRESS = unix:abstract=/tmp/dbus-qbYETYtdcW,guid=09c1c4cc49c6b1bfe06650c462a1e459
+DBUS_SESSION_BUS_ADDRESS = unix:abstract=/tmp/dbus-znI7vRSbyS,guid=bc54a955855fb29697b9c8e062a49259
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # environment
@@ -143,13 +131,13 @@ SHELL = /bin/sh
 # default
 MAKECMDGOALS := all
 # environment
-SHLVL = 2
+SHLVL = 1
 # environment
 MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = /home/jodi/.local/usr/bin:/home/jodi/.cargo/bin:/home/jodi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bin:/usr/lib/llvm/14/bin:/usr/lib/llvm/13/bin
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bin:/usr/lib/llvm/14/bin:/usr/lib/llvm/13/bin
 # default
 MAKEFILES := 
 # environment
@@ -174,10 +162,6 @@ XDG_SEAT = seat0
 XDG_CURRENT_DESKTOP = KDE
 # environment
 JAVAC = /etc/java-config-2/current-system-vm/bin/javac
-# environment
-ALACRITTY_LOG = /tmp/Alacritty-2702.log
-# environment
-LS_COLORS = 
 # automatic
 +F = $(notdir $+)
 # environment
@@ -188,18 +172,12 @@ LESS = -R -M --shift 5
 DESKTOP_SESSION = plasma
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = KDE
-# environment
-VSCODE_GALLERY_ITEM_URL = https://marketplace.visualstudio.com/items
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
 LOGNAME = jodi
 # environment
 CONFIG_PROTECT_MASK = /etc/sandbox.d /etc/fonts/fonts.conf /etc/gentoo-release /etc/terminfo /etc/dconf /etc/ca-certificates.conf
-# environment
-VSCODE_GALLERY_CONTROL_URL = 
-# environment
-VSCODE_GALLERY_CACHE_URL = https://vscode.blob.core.windows.net/gallery/index
 # environment
 CONFIG_PROTECT = /usr/share/gnupg/qualified.txt /usr/share/config
 # environment
@@ -209,7 +187,7 @@ XDG_VTNR = 7
 # environment
 AUTOJUMP_ERROR_PATH = /home/jodi/.local/share/autojump/errors.log
 # environment
-EDITOR = vim
+EDITOR = /bin/nano
 # environment
 DISPLAY = :0
 # environment
@@ -227,8 +205,6 @@ _ = /usr/bin/make
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
-COLORTERM = truecolor
-# environment
 XDG_SESSION_CLASS = user
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
@@ -242,8 +218,6 @@ JDK_HOME = /etc/java-config-2/current-system-vm
 ELECTRON_RUN_AS_NODE = 1
 # environment
 VSCODE_IPC_HOOK = /run/user/1000/vscode-fabbd96e-1.67.2-main.sock
-# environment
-TERM = alacritty
 # environment
 XDG_SESSION_ID = 2
 # environment
@@ -270,8 +244,9 @@ KDE_SESSION_VERSION = 5
 KDE_FULL_SESSION = true
 # environment
 GDMSESSION = plasma
+ 
 # variable set hash-table stats:
-# Load=130/1024=13%, Rehash=0, Collisions=22/167=13%
+# Load=117/1024=11%, Rehash=0, Collisions=21/156=13%
 
 # Pattern-specific Variable Values
 
@@ -279,14 +254,13 @@ GDMSESSION = plasma
 
 # Directories
 
-# src (device 2067, inode 476713): 4 files, no impossibilities.
-# . (device 2067, inode 485844): 6 files, no impossibilities.
+# src (device 2067, inode 476713): 5 files, no impossibilities.
+# . (device 2067, inode 485844): 7 files, no impossibilities.
 
-# 10 files, no impossibilities in 2 directories.
+# 12 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
- 
 # No implicit rules.
 
 # Files
@@ -294,7 +268,7 @@ GDMSESSION = plasma
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-10 09:37:01.324129
+#  Last modified 2022-06-10 17:24:14.0159641
 #  File has been updated.
 #  Successfully updated.
 
@@ -303,8 +277,9 @@ clean:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 17):
+#  recipe to execute (from 'Makefile', line 20):
 	rm src/*.o
+	rm src/*.bak
 
 # Not a target:
 .DEFAULT:
@@ -316,43 +291,54 @@ all: src/add.o
 #  Phony target (prerequisite of .PHONY).
 #  Command line target.
 #  Implicit rule search has not been done.
-#  Implicit/static pattern stem: ''
 #  File does not exist.
 #  File has been updated.
 #  Needs to be updated (-q is set).
-# automatic
-# @ := all
-# automatic
-# * := 
-# automatic
-# < := src/add.o
-# automatic
-# + := src/add.o
-# automatic
-# % := 
-# automatic
-# ^ := src/add.o
-# automatic
-# ? := src/add.o
-# automatic
-# | := 
 # variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=1/13=8%
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
 #  recipe to execute (from 'Makefile', line 11):
 	ld $(OBJ) -g -o $(NAME)
 
+test:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 17):
+	bin/main
+
 src/add.o: src/add.s
 #  Implicit rule search has not been done.
-#  Last modified 2022-06-10 09:37:07.3408334
+#  Implicit/static pattern stem: ''
+#  Last modified 2022-06-10 17:41:59.647391
 #  File has been updated.
-#  Successfully updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := src/add.o
+# automatic
+# * := 
+# automatic
+# < := src/add.s
+# automatic
+# + := src/add.s
+# automatic
+# % := 
+# automatic
+# ^ := src/add.s
+# automatic
+# ? := src/add.s
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/15=7%
 #  recipe to execute (from 'Makefile', line 13):
-	nasm  -g -f elf64 src/*.s -o $(OBJ)
+	cp $(SRC) $(SRC).bak
+	sed -i 's@//@;@' $(SRC).bak
+	nasm  -g -f elf64 src/*.bak -o $(OBJ) 
 
 # Not a target:
 src/add.s:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-10 09:36:33.7106223
+#  Last modified 2022-06-10 17:45:01.3254772
 #  File has been updated.
 #  Successfully updated.
 
@@ -368,19 +354,19 @@ src/add.s:
 #  File has not been updated.
 
 # files hash-table stats:
-# Load=8/1024=1%, Rehash=0, Collisions=0/28=0%
+# Load=9/1024=1%, Rehash=0, Collisions=0/29=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 16 / storage = 111 B / avg = 6 B
-# current buf: size = 8162 B / used = 111 B / count = 16 / avg = 6 B
+# strcache buffers: 1 (0) / strings = 19 / storage = 139 B / avg = 7 B
+# current buf: size = 8162 B / used = 139 B / count = 19 / avg = 7 B
 
-# strcache performance: lookups = 35 / hit rate = 54%
+# strcache performance: lookups = 39 / hit rate = 51%
 # hash-table stats:
-# Load=16/8192=0%, Rehash=0, Collisions=1/35=3%
-# Finished Make data base on Fri Jun 10 09:40:04 2022
+# Load=19/8192=0%, Rehash=0, Collisions=1/39=3%
+# Finished Make data base on Sat Jun 11 08:03:51 2022
 
  

@@ -7,6 +7,9 @@ global _start
 section .text
 _start: 
 
+
+	
+
 	call setup
 
 	mov rdi, input1
@@ -49,8 +52,8 @@ setup:
 	jz  if_not_alphanumeric
 	
 
-	mov rdi, prompt1
-	mov rsi, prompt1_len
+	mov rdi, prompt2
+	mov rsi, prompt2_len
 	call print
 	
 
@@ -128,7 +131,9 @@ _check_if_numeric_exit_bad:
 
 // places final word in itoa_buffer
 itoa: // itoa(const buf* num, int len)
-
+	// 38
+	// 86
+	// 
 
 atoi: // arg0: buf, arg1: len
 	xor r10, r10
@@ -172,11 +177,11 @@ _get_len_loop:
   test al, al
   jz _get_len_exit // end when current byte is null
 
-  add rdx, 1
+  inc rdx
   
   jmp _get_len_loop
 _get_len_exit:
-	sub rdx, 1
+	dec rdx
 	mov rax, rdx 
 	ret
 section .data
