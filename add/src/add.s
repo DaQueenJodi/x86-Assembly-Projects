@@ -6,8 +6,6 @@ global _start
 
 section .text
 _start: 
-
-
 	
 
 	call setup
@@ -23,6 +21,12 @@ _start:
 	call atoi
 	mov [num2], rax
 
+	mov rdi, num2
+	call get_len
+
+	mov rdi, num2
+	mov rsi, rax
+	call itoa
 
 	mov r9, [num1]
 	add r9, [num2]
@@ -39,11 +43,12 @@ setup:
 	call print
 
 	call get_input
-	mov [input1], rax
+	mov r9, [rax] 
+	mov [input1], r9
 
 	mov rdi, input1
 	call get_len
-	
+	dec rax // remove newline from stdin
 	mov [len1], rax
 	
 	mov rsi, rax
@@ -58,12 +63,13 @@ setup:
 	
 
 	call get_input
-	mov [input2], rax
+	mov r9, [rax]
+	mov [input2], r9
 
 	mov rdi, input2
 	call get_len
 	
-
+	dec rax
 	mov [len2], rax
 	
 	mov rsi, rax
@@ -85,14 +91,14 @@ if_not_alphanumeric:
 
 get_input: 
 
-//   returns stdin
+//   returns stdin buffer and length
 
 	xor rax, rax // syscall read
 	xor rdi, rdi // stdin fd
 	mov rsi, input_buffer
 	mov rdx, 100
 	syscall
-	mov rax, [input_buffer]
+	mov rax, input_buffer
 	ret
 
 print: // arg0 = word, arg1 = len
@@ -131,10 +137,31 @@ _check_if_numeric_exit_bad:
 
 // places final word in itoa_buffer
 itoa: // itoa(const buf* num, int len)
-	// 38
-	// 86
-	// 
+	xor r10, r10
+	xor rdx, rdx
+	mov rcx, rsi
+	mov rsi, rdi
+	mov r11, 10 
 
+//
+//	r9 = current byte
+//  r11 = divisor/multiplier
+//  r10 = iteration
+//
+
+
+_itoa_loop:
+	lodsb 
+	movzx r9, al
+	mov rax, r9
+	div r11
+	add r9, 48
+	mov [itoa_buffer+r10], r9
+	inc r10
+	loop _itoa_loop
+_itoa_exit:
+	mov rax, r10
+	ret
 atoi: // arg0: buf, arg1: len
 	xor r10, r10
 	mov rcx, rsi
@@ -147,7 +174,7 @@ atoi: // arg0: buf, arg1: len
 //
 
 
-_atio_loop:
+_atoi_loop:
 	lodsb
 
 	movzx r9, al
@@ -156,11 +183,10 @@ _atio_loop:
 	mul r11
 	mov r10, rax
 
-	sub r9, 48 // make real number
 	add r10, r9
 
-	loop _atio_loop
-_atio_exit:
+	loop _atoi_loop
+_atoi_exit:
 	mov rax, r10
 	ret
 get_len: // arg0 buffer
@@ -181,7 +207,6 @@ _get_len_loop:
   
   jmp _get_len_loop
 _get_len_exit:
-	dec rdx
 	mov rax, rdx 
 	ret
 section .data
